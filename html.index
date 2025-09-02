@@ -1,0 +1,66 @@
+# README.md
+
+# ToolDash Website
+
+This repository hosts the source for **ToolDash**, an on‑demand tool rental and job‑site delivery platform.
+
+## 🌐 Live Site
+Once GitHub Pages is enabled, your site will be here:
+```
+https://braxtonjterrebonne.github.io/tooldashwebsite/
+```
+
+## 📂 Repo Structure
+- `index.html` — main landing page (built with Tailwind via CDN, mobile‑friendly)
+- `404.html` — not found page for GitHub Pages
+- `README.md` — project documentation
+
+## 🚀 Deployment
+1. Commit changes to `main` branch.
+2. In GitHub: **Settings → Pages → Branch: main → / (root)**.
+3. Wait 1–2 minutes for GitHub Pages to publish.
+
+## ✨ Features
+- Responsive landing page with Hero, About, Services, Contact sections
+- Sticky header + mobile navigation
+- Formspree integration (replace placeholder endpoint)
+- SEO/OG tags and social preview image support
+- Custom 404 page
+- Favicon and social preview image template
+
+## 🔧 Setup Notes
+- Replace `/favicon.ico` in the repo root with your actual favicon.
+- Swap in your real Formspree form ID or backend endpoint for contact form.
+- Update brand colors in the Tailwind config (top of `index.html`) as needed.
+- Replace `social-card.png` with a branded preview image and update `og:image` in `index.html`.
+
+---
+
+# 404.html
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Not Found — ToolDash</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/favicon.ico" />
+    <meta property="og:image" content="/social-card.png" />
+  </head>
+  <body class="h-screen flex items-center justify-center bg-slate-50 text-slate-800">
+    <div class="text-center px-6">
+      <h1 class="text-6xl font-bold text-brand">404</h1>
+      <p class="mt-4 text-lg">Oops — the page you’re looking for doesn’t exist.</p>
+      <a href="/" class="mt-6 inline-block rounded-lg bg-brand px-5 py-3 text-white font-semibold">Back to Home</a>
+    </div>
+  </body>
+</html>
+
+---
+
+# Favicon & Social Preview
+
+- Add your favicon file at `favicon.ico` in the repo root.
+- Create a `social-card.png` (1200x630 recommended) with your branding and place it in the repo root.
+- These will automatically be used by browsers and when sharing links on social media.
