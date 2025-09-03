@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nail It Down: ToolDash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Nail It Down: ToolDash</h1>
+    <p>Your on-demand tool delivery service</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      We are a local startup founded by a University of Louisiana graduate. 
+      Nail It Down: ToolDash was built to make life easier for contractors, 
+      renovators, and small business owners by bringing the tools you need, 
+      right when you need them.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>What We Do</h2>
+    <p>
+      ToolDash delivers construction tools and supplies directly to your job site. 
+      No more wasted trips to the store — we bring the tools to you so you can 
+      focus on getting the job done.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:3093506825">(309) 350-6825</a></p>
+    <p>Email: <a href="mailto:braxtonjterrebonne@gmail.com">braxtonjterrebonne@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nail It Down: ToolDash. All rights reserved.</p>
+  </footer>
+</body>
+</html>
